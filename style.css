@@ -63,7 +63,7 @@ nav a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
-    width: 1200px;
+    max-width: 1200px;
     display: flex;
     align-items: center;
 }
@@ -79,6 +79,38 @@ nav a {
 }
 
 /* Featured Tea Section */
+
+#featuredTea {
+    padding: 64px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#featuredTea article {
+    margin: 0 auto;
+}
+
+#featuredTea h2 {
+    margin: 16px 0;
+}
+
+#featuredTea h4 {
+    margin: 10px 0;
+}
+
+#featuredTea div {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-grow: 1;
+}
+
+#featuredTea figure {
+    margin: 8px;
+}
 
 #featuredTea img {
     max-height: 200px;
