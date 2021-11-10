@@ -21,7 +21,7 @@ body {
 
 header, main, footer {
     background-color: rgba(10, 10, 10, 1);
-    max-width: 1440px;
+    max-width: 1600px;
     margin: 0 auto;
     opacity: .9;
 }
@@ -42,7 +42,8 @@ header {
 }
 
 header img {
-    height: 50px;
+    max-height: 50px;
+    width: auto;
 }
 
 nav li {
@@ -62,6 +63,7 @@ nav a {
     background-image: url(images/img-mission-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 700px;
     max-width: 1200px;
     display: flex;
@@ -119,8 +121,80 @@ nav a {
 
 /* Locations Section */
 
+#locations {
+    margin: 0 auto;
+    background-image: url(images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 500px;
+    padding: 32px;
+}
+
+#locations h2 {
+    margin: 15px 0;
+}
+
+#locations article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#locations figure {
+    background-color: rgba(10, 10, 10, 1);
+    min-height: 300px;
+    width: 300px;
+    display: inline-block;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#locations h3 {
+    margin: 24px;
+}
+
+#locations p {
+    line-height: 2;
+}
 
 /* Contact Section */
 
+#contact {
+    padding: 24px;
+    margin: 0 auto;
+}
+
+#contact h2 {
+    padding: 16px;
+}
+
+#contact h5 {
+    padding: 8px
+}
 
 /* Footer */
+
+footer {
+    text-align: left;
+}
+
+footer p {
+    padding: 20px;
+}
+
+/* Media */
+
+@media only screen and (max-width: 1600px) {
+    header {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    html {
+        font-size: 14px
+    }
+}
