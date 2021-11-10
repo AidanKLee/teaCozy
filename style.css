@@ -7,14 +7,62 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: seashell;
+}
+
+body {
+    background-color: seashell;
+    width: 100%;
+}
+
+header, main, footer {
+    background-color: rgba(10, 10, 10, 0.9);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* Header */
 
+header {
+    margin-top: 32px;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    height: 50px;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 8px;
+}
+
+nav a {
+    color: seashell;
+}
 
 /* Mission Section */
 
 
+
 /* Featured Tea Section */
 
+#featuredTea img {
+    max-height: 200px;
+    max-width: 300px;
+}
 
 /* Locations Section */
 
