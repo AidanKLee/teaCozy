@@ -20,9 +20,10 @@ body {
 }
 
 header, main, footer {
-    background-color: rgba(10, 10, 10, 0.9);
+    background-color: rgba(10, 10, 10, 1);
     max-width: 1440px;
     margin: 0 auto;
+    opacity: .9;
 }
 
 /* Header */
@@ -37,6 +38,7 @@ header {
     padding: 0 10px;
     position: sticky;
     top: 0;
+    z-index: 100;
 }
 
 header img {
@@ -55,7 +57,26 @@ nav a {
 
 /* Mission Section */
 
+#mission {
+    margin: 0 auto;
+    background-image: url(images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
 
+#mission article {
+    width: 100%;
+    padding: 16px;
+    background-color: rgba(10, 10, 10, 1);
+}
+
+#mission h2 {
+    margin-bottom: 24px;
+}
 
 /* Featured Tea Section */
 
